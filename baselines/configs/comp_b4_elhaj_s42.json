@@ -1,0 +1,14 @@
+{
+ "run_name": "B4-selftrain-elhaj-s42",
+ "backbone": "UBC-NLP/MARBERT",
+ "dataset": "elhaj",
+ "seed_fraction": 10,
+ "tau": 0.95,
+ "phase1_steps": 260,
+ "phase3_steps": 130,
+ "batch_size": 32,
+ "max_length": 128,
+ "dropout": 0.5,
+ "lr": 3e-05,
+ "seed": 42
+}

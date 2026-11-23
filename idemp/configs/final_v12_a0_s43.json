@@ -1,0 +1,13 @@
+{
+ "arm": "a0",
+ "run_name": "final_v12_a0_s43",
+ "backbone": "UBC-NLP/MARBERT",
+ "seed_fraction": 10,
+ "epochs": 10,
+ "batch_size": 32,
+ "max_length": 128,
+ "dropout": 0.5,
+ "lr": 3e-05,
+ "gpu": -1,
+ "seed": 43
+}

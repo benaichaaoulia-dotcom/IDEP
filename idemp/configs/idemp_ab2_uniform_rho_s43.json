@@ -1,0 +1,21 @@
+{
+ "arm": "a2",
+ "run_name": "idemp_ab2_uniform_rho_s43",
+ "backbone": "UBC-NLP/MARBERT",
+ "seed_fraction": 10,
+ "epochs": 10,
+ "batch_size": 32,
+ "max_length": 128,
+ "dropout": 0.5,
+ "lr": 3e-05,
+ "seed": 43,
+ "gpu": -1,
+ "rho_weights": {
+  "MSA": 0.2495,
+  "BEI": 0.2495,
+  "CAI": 0.2495,
+  "DOH": 0.2495,
+  "RAB": 0.001,
+  "TUN": 0.001
+ }
+}

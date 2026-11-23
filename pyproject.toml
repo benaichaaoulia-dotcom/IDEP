@@ -1,0 +1,29 @@
+[project]
+name = "idemp"
+version = "1.0.0"
+description = "IDEP — Inverted-Decoupling Entropy-regularized Partial-label pool-row Mixing"
+requires-python = ">=3.12"
+dependencies = [
+    # Pinned stack used for the reported results.
+    "torch==2.11.0+cu130",
+    "transformers==4.40.2",
+    # transformers 4.40.2 requires huggingface-hub<1.0 (the shared workspace
+    # venv carries 1.16.1, import-incompatible); 0.34.4 verified working.
+    "huggingface-hub==0.34.4",
+    "numpy==2.5.4",
+    "scikit-learn==1.9.1",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.uv]
+# PyTorch CUDA 13.0 wheels (same index as the original run environment)
+[[tool.uv.index]]
+name = "pytorch-cu130"
+url = "https://download.pytorch.org/whl/cu130"
+explicit = true
+
+[tool.uv.sources]
+torch = [{ index = "pytorch-cu130" }]

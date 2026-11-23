@@ -1,0 +1,105 @@
+{
+  "run_name": "B5-tfidf-logreg-madar-s42",
+  "dataset": "madar",
+  "split": "test",
+  "eval_id": "COMP-c16-b5-madar-s42",
+  "kind": "tfidf",
+  "n_sentences": 6041,
+  "macro_f1": 0.842492,
+  "accuracy": 0.842741,
+  "per_class": {
+    "MSA": {
+      "support": 1002,
+      "precision": 0.8778,
+      "recall": 0.9102,
+      "f1": 0.8937
+    },
+    "BEI": {
+      "support": 1009,
+      "precision": 0.7899,
+      "recall": 0.8642,
+      "f1": 0.8254
+    },
+    "CAI": {
+      "support": 1012,
+      "precision": 0.8254,
+      "recall": 0.7846,
+      "f1": 0.8045
+    },
+    "DOH": {
+      "support": 992,
+      "precision": 0.8214,
+      "recall": 0.7833,
+      "f1": 0.8019
+    },
+    "RAB": {
+      "support": 1022,
+      "precision": 0.9137,
+      "recall": 0.8601,
+      "f1": 0.8861
+    },
+    "TUN": {
+      "support": 1004,
+      "precision": 0.8337,
+      "recall": 0.8536,
+      "f1": 0.8435
+    }
+  },
+  "confusion_matrix_rows_gold_cols_pred": {
+    "MSA": {
+      "MSA": 912,
+      "BEI": 22,
+      "CAI": 20,
+      "DOH": 26,
+      "RAB": 2,
+      "TUN": 20
+    },
+    "BEI": {
+      "MSA": 13,
+      "BEI": 872,
+      "CAI": 45,
+      "DOH": 39,
+      "RAB": 12,
+      "TUN": 28
+    },
+    "CAI": {
+      "MSA": 44,
+      "BEI": 61,
+      "CAI": 794,
+      "DOH": 55,
+      "RAB": 17,
+      "TUN": 41
+    },
+    "DOH": {
+      "MSA": 35,
+      "BEI": 65,
+      "CAI": 57,
+      "DOH": 777,
+      "RAB": 22,
+      "TUN": 36
+    },
+    "RAB": {
+      "MSA": 17,
+      "BEI": 39,
+      "CAI": 20,
+      "DOH": 21,
+      "RAB": 879,
+      "TUN": 46
+    },
+    "TUN": {
+      "MSA": 18,
+      "BEI": 45,
+      "CAI": 26,
+      "DOH": 28,
+      "RAB": 30,
+      "TUN": 857
+    }
+  },
+  "ece15": 0.261247,
+  "throughput_sent_per_s": 8431.055,
+  "p50_batch32_latency_s": null,
+  "ckpt": "best",
+  "rab_to_tun": 46,
+  "tun_to_rab": 30,
+  "pair_mass_pct": 1.2581
+}

@@ -1,0 +1,31 @@
+{
+ "arm": "a2",
+ "dataset": "elhaj",
+ "run_name": "final_v12_elhaj_a2_s42",
+ "backbone": "UBC-NLP/MARBERT",
+ "seed_fraction": 10,
+ "epochs": 10,
+ "batch_size": 32,
+ "max_length": 128,
+ "dropout": 0.5,
+ "lr": 3e-05,
+ "gpu": -1,
+ "seed": 42,
+ "k_pair": 0,
+ "pi_weights": {
+  "EGY": 0.2,
+  "NOR": 0.2,
+  "GLF": 0.2,
+  "LAV": 0.2,
+  "MSA": 0.2
+ },
+ "rho_weights": {
+  "EGY": 0.2,
+  "NOR": 0.2,
+  "GLF": 0.2,
+  "LAV": 0.2,
+  "MSA": 0.2
+ },
+ "lambda_kl": 0.5,
+ "lambda_m": 0.1
+}

@@ -1,0 +1,18 @@
+{
+ "target": "grl",
+ "run_name": "B1-grl-camelbert-elhaj-s43",
+ "backbone": "CAMeL-Lab/bert-base-arabic-camelbert-mix",
+ "dataset": "elhaj",
+ "seed_fraction": 10,
+ "epochs": 10,
+ "batch_size": 32,
+ "labeled_per_batch": 16,
+ "max_length": 128,
+ "dropout": 0.5,
+ "lr_backbone": 3e-05,
+ "lr_label_head": 0.0005,
+ "lr_domain_head": 0.0001,
+ "adversarial_weight": 0.01,
+ "grl_gamma": 10.0,
+ "seed": 43
+}

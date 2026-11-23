@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.venv/
+runs/
+*.pt
+!checkpoints/*.pt
+
+# Local secrets, caches, and rebuildable lookup tables
+.env
+__pycache__/
+*.pyc
+*.pt

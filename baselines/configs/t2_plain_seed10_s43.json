@@ -1,0 +1,12 @@
+{
+ "target": "plain",
+ "backbone": "UBC-NLP/MARBERT",
+ "epochs": 10,
+ "batch_size": 32,
+ "max_length": 128,
+ "dropout": 0.5,
+ "lr": 3e-05,
+ "run_name": "T2-marbert-seed10-s43",
+ "seed_fraction": 10,
+ "seed": 43
+}

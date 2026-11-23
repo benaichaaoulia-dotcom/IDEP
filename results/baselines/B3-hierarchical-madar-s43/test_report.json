@@ -1,0 +1,120 @@
+{
+  "run_name": "B3-hierarchical-madar-s43",
+  "dataset": "madar",
+  "split": "test",
+  "eval_id": "COMP-c16-b3-madar-s43",
+  "kind": "b3_hierarchical",
+  "n_sentences": 6041,
+  "macro_f1": 0.977687,
+  "accuracy": 0.977653,
+  "per_class": {
+    "MSA": {
+      "support": 1002,
+      "precision": 0.9919,
+      "recall": 0.977,
+      "f1": 0.9844
+    },
+    "BEI": {
+      "support": 1009,
+      "precision": 0.9802,
+      "recall": 0.9792,
+      "f1": 0.9797
+    },
+    "CAI": {
+      "support": 1012,
+      "precision": 0.9604,
+      "recall": 0.9832,
+      "f1": 0.9717
+    },
+    "DOH": {
+      "support": 992,
+      "precision": 0.9482,
+      "recall": 0.9788,
+      "f1": 0.9633
+    },
+    "RAB": {
+      "support": 1022,
+      "precision": 0.996,
+      "recall": 0.9755,
+      "f1": 0.9857
+    },
+    "TUN": {
+      "support": 1004,
+      "precision": 0.9909,
+      "recall": 0.9721,
+      "f1": 0.9814
+    }
+  },
+  "confusion_matrix_rows_gold_cols_pred": {
+    "MSA": {
+      "MSA": 979,
+      "BEI": 2,
+      "CAI": 9,
+      "DOH": 12,
+      "RAB": 0,
+      "TUN": 0
+    },
+    "BEI": {
+      "MSA": 0,
+      "BEI": 988,
+      "CAI": 10,
+      "DOH": 10,
+      "RAB": 1,
+      "TUN": 0
+    },
+    "CAI": {
+      "MSA": 2,
+      "BEI": 5,
+      "CAI": 995,
+      "DOH": 10,
+      "RAB": 0,
+      "TUN": 0
+    },
+    "DOH": {
+      "MSA": 0,
+      "BEI": 8,
+      "CAI": 9,
+      "DOH": 971,
+      "RAB": 1,
+      "TUN": 3
+    },
+    "RAB": {
+      "MSA": 2,
+      "BEI": 1,
+      "CAI": 8,
+      "DOH": 8,
+      "RAB": 997,
+      "TUN": 6
+    },
+    "TUN": {
+      "MSA": 4,
+      "BEI": 4,
+      "CAI": 5,
+      "DOH": 13,
+      "RAB": 2,
+      "TUN": 976
+    }
+  },
+  "ece15": 0.020398,
+  "throughput_sent_per_s": 425.995,
+  "p50_batch32_latency_s": 0.0597,
+  "train_seconds": 16.2,
+  "eval_seconds": 14.2,
+  "aggregated_layers": {
+    "country": {
+      "char_lms": 22,
+      "word_lms": 22,
+      "used": true
+    },
+    "region": {
+      "char_lms": 6,
+      "word_lms": 6,
+      "used": true
+    }
+  },
+  "n_main_rows": 3826,
+  "n_extra_rows": 4852,
+  "rab_to_tun": 6,
+  "tun_to_rab": 2,
+  "pair_mass_pct": 0.1324
+}

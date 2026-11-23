@@ -1,0 +1,105 @@
+{
+  "run_name": "B4-selftrain-madar-s42",
+  "dataset": "madar",
+  "split": "test",
+  "eval_id": "COMP-c16-b4-madar-s42",
+  "kind": "transformer",
+  "n_sentences": 6041,
+  "macro_f1": 0.857997,
+  "accuracy": 0.858136,
+  "per_class": {
+    "MSA": {
+      "support": 1002,
+      "precision": 0.9186,
+      "recall": 0.9232,
+      "f1": 0.9209
+    },
+    "BEI": {
+      "support": 1009,
+      "precision": 0.7527,
+      "recall": 0.9108,
+      "f1": 0.8242
+    },
+    "CAI": {
+      "support": 1012,
+      "precision": 0.9161,
+      "recall": 0.7875,
+      "f1": 0.847
+    },
+    "DOH": {
+      "support": 992,
+      "precision": 0.8837,
+      "recall": 0.7661,
+      "f1": 0.8207
+    },
+    "RAB": {
+      "support": 1022,
+      "precision": 0.8682,
+      "recall": 0.9022,
+      "f1": 0.8848
+    },
+    "TUN": {
+      "support": 1004,
+      "precision": 0.8433,
+      "recall": 0.8576,
+      "f1": 0.8504
+    }
+  },
+  "confusion_matrix_rows_gold_cols_pred": {
+    "MSA": {
+      "MSA": 925,
+      "BEI": 22,
+      "CAI": 13,
+      "DOH": 23,
+      "RAB": 5,
+      "TUN": 14
+    },
+    "BEI": {
+      "MSA": 13,
+      "BEI": 919,
+      "CAI": 17,
+      "DOH": 15,
+      "RAB": 13,
+      "TUN": 32
+    },
+    "CAI": {
+      "MSA": 28,
+      "BEI": 94,
+      "CAI": 797,
+      "DOH": 35,
+      "RAB": 31,
+      "TUN": 27
+    },
+    "DOH": {
+      "MSA": 24,
+      "BEI": 97,
+      "CAI": 27,
+      "DOH": 760,
+      "RAB": 39,
+      "TUN": 45
+    },
+    "RAB": {
+      "MSA": 7,
+      "BEI": 34,
+      "CAI": 4,
+      "DOH": 13,
+      "RAB": 922,
+      "TUN": 42
+    },
+    "TUN": {
+      "MSA": 10,
+      "BEI": 55,
+      "CAI": 12,
+      "DOH": 14,
+      "RAB": 52,
+      "TUN": 861
+    }
+  },
+  "ece15": 0.12328,
+  "throughput_sent_per_s": 1066.483,
+  "p50_batch32_latency_s": 0.027108,
+  "ckpt": "best",
+  "rab_to_tun": 42,
+  "tun_to_rab": 52,
+  "pair_mass_pct": 1.556
+}

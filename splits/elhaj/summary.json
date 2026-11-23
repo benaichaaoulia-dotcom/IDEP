@@ -1,0 +1,52 @@
+{
+  "split_seed": "2026-11-20-RUN-2026-11-20-02",
+  "dataset": "elhaj_arabic_dialects_2018",
+  "generator": "data_prep/build_elhaj_splits.py",
+  "jaccard_min": 0.6,
+  "n_rows": {
+    "train": 8079,
+    "dev": 1010,
+    "test": 1013
+  },
+  "n_train_groups": 7931,
+  "seed": {
+    "5": {
+      "groups": 396,
+      "sentences": 408
+    },
+    "10": {
+      "groups": 793,
+      "sentences": 808
+    },
+    "20": {
+      "groups": 1586,
+      "sentences": 1614
+    }
+  },
+  "pool": {
+    "5": {
+      "groups": 7535,
+      "sentences": 7671
+    },
+    "10": {
+      "groups": 7138,
+      "sentences": 7271
+    },
+    "20": {
+      "groups": 6345,
+      "sentences": 6465
+    }
+  },
+  "class_counts_train": {
+    "EGY": 3248,
+    "NOR": 1289,
+    "GLF": 1337,
+    "LAV": 1406,
+    "MSA": 799
+  },
+  "manifest_md5": {
+    "arabic_dialects_train.csv": "bca5485507601a324125266110230a75",
+    "arabic_dialects_dev.csv": "276e368cc661561f009304f45d6f8dc8",
+    "arabic_dialects_test.csv": "e7333634e778d81eae208629fcc0ab40"
+  }
+}

@@ -1,0 +1,30 @@
+{
+ "arm": "a2",
+ "dataset": "elhaj",
+ "run_name": "idemp_elhaj_a2_s44",
+ "backbone": "UBC-NLP/MARBERT",
+ "seed_fraction": 10,
+ "epochs": 10,
+ "batch_size": 32,
+ "max_length": 128,
+ "dropout": 0.5,
+ "lr": 3e-05,
+ "seed": 44,
+ "gpu": -1,
+ "k_pair": 0,
+ "pi_weights": {
+  "EGY": 0.2,
+  "NOR": 0.2,
+  "GLF": 0.2,
+  "LAV": 0.2,
+  "MSA": 0.2
+ },
+ "rho_weights": {
+  "EGY": 0.2,
+  "NOR": 0.2,
+  "GLF": 0.2,
+  "LAV": 0.2,
+  "MSA": 0.2
+ },
+ "weights_provenance": "uniform 1/5 (SPRM form) by default; re-derive from the ElHaj anchor per-class F1 via common.elhaj_data.elhaj_weights_from_anchor_f1"
+}

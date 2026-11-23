@@ -1,0 +1,25 @@
+{
+ "arm": "a2",
+ "run_name": "rescue2_r5_ab2_s42",
+ "backbone": "UBC-NLP/MARBERT",
+ "seed_fraction": 10,
+ "epochs": 10,
+ "batch_size": 32,
+ "max_length": 128,
+ "dropout": 0.5,
+ "lr": 3e-05,
+ "seed": 42,
+ "gpu": 1,
+ "rho_weights": {
+  "MSA": 0.2495,
+  "BEI": 0.2495,
+  "CAI": 0.2495,
+  "DOH": 0.2495,
+  "RAB": 0.001,
+  "TUN": 0.001
+ },
+ "lambda_kl": 0.5,
+ "lambda_m": 0.1,
+ "lambda_contrast": 0.5,
+ "contrast_margin": 1.0
+}

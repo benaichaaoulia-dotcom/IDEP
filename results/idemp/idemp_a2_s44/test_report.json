@@ -1,0 +1,53 @@
+{
+ "eval_id": "IDEP-c11-idemp_a2_s44",
+ "arm": "a2",
+ "checkpoint": "best.pt",
+ "checkpoint_step": 1368,
+ "checkpoint_val2_macro_f1": 0.8962000150857191,
+ "checkpoint_trailing3_score": 0.8960153548470089,
+ "macro_f1": 0.8796303096433057,
+ "accuracy": 0.880152292666777,
+ "loss": 0.578811987881786,
+ "per_class": {
+  "MSA": {
+   "support": 1002,
+   "precision": 0.8907,
+   "recall": 0.9601,
+   "f1": 0.9241
+  },
+  "BEI": {
+   "support": 1009,
+   "precision": 0.8705,
+   "recall": 0.9058,
+   "f1": 0.8878
+  },
+  "CAI": {
+   "support": 1012,
+   "precision": 0.9033,
+   "recall": 0.8399,
+   "f1": 0.8705
+  },
+  "DOH": {
+   "support": 992,
+   "precision": 0.8271,
+   "recall": 0.8296,
+   "f1": 0.8284
+  },
+  "RAB": {
+   "support": 1022,
+   "precision": 0.9114,
+   "recall": 0.8963,
+   "f1": 0.9038
+  },
+  "TUN": {
+   "support": 1004,
+   "precision": 0.8784,
+   "recall": 0.8486,
+   "f1": 0.8632
+  }
+ },
+ "n_total": 6041,
+ "rab_to_tun": 49,
+ "tun_to_rab": 46,
+ "pair_mass_pct": 1.5726
+}

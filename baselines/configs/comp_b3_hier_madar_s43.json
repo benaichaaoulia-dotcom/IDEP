@@ -1,0 +1,7 @@
+{
+ "run_name": "B3-hierarchical-madar-s43",
+ "dataset": "madar",
+ "seed_fraction": 10,
+ "seed": 43,
+ "eval_id": "COMP-c16-b3-madar-s43"
+}

@@ -1,0 +1,105 @@
+{
+  "run_name": "B3-hierarchical-elhaj-s43",
+  "dataset": "elhaj",
+  "split": "test",
+  "eval_id": "COMP-c16-b3-elhaj-s43",
+  "kind": "b3_hierarchical",
+  "n_sentences": 1013,
+  "macro_f1": 0.351359,
+  "accuracy": 0.532083,
+  "per_class": {
+    "EGY": {
+      "support": 407,
+      "precision": 0.6054,
+      "recall": 0.9877,
+      "f1": 0.7507
+    },
+    "NOR": {
+      "support": 162,
+      "precision": 0.2869,
+      "recall": 0.216,
+      "f1": 0.2465
+    },
+    "GLF": {
+      "support": 168,
+      "precision": 0.481,
+      "recall": 0.2262,
+      "f1": 0.3077
+    },
+    "LAV": {
+      "support": 176,
+      "precision": 0.4167,
+      "recall": 0.3409,
+      "f1": 0.375
+    },
+    "MSA": {
+      "support": 100,
+      "precision": 1.0,
+      "recall": 0.04,
+      "f1": 0.0769
+    }
+  },
+  "confusion_matrix_rows_gold_cols_pred": {
+    "EGY": {
+      "EGY": 402,
+      "NOR": 0,
+      "GLF": 0,
+      "LAV": 5,
+      "MSA": 0
+    },
+    "NOR": {
+      "EGY": 89,
+      "NOR": 35,
+      "GLF": 5,
+      "LAV": 33,
+      "MSA": 0
+    },
+    "GLF": {
+      "EGY": 61,
+      "NOR": 29,
+      "GLF": 38,
+      "LAV": 40,
+      "MSA": 0
+    },
+    "LAV": {
+      "EGY": 72,
+      "NOR": 26,
+      "GLF": 18,
+      "LAV": 60,
+      "MSA": 0
+    },
+    "MSA": {
+      "EGY": 40,
+      "NOR": 32,
+      "GLF": 18,
+      "LAV": 6,
+      "MSA": 4
+    }
+  },
+  "ece15": 0.333369,
+  "throughput_sent_per_s": 234.95,
+  "p50_batch32_latency_s": 0.1842,
+  "train_seconds": 8.1,
+  "eval_seconds": 4.3,
+  "aggregated_layers": {
+    "country": {
+      "char_lms": 22,
+      "word_lms": 22,
+      "used": true
+    },
+    "region": {
+      "char_lms": 6,
+      "word_lms": 6,
+      "used": true
+    }
+  },
+  "n_main_rows": 808,
+  "n_extra_rows": 808,
+  "elhaj_bridge_mapping": {
+    "EGY": "CAI",
+    "NOR": "AMM",
+    "GLF": "DOH",
+    "LAV": "BEI",
+    "MSA": "MSA"
+  }
+}

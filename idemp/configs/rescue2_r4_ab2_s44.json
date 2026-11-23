@@ -1,0 +1,24 @@
+{
+ "arm": "a2",
+ "run_name": "rescue2_r4_ab2_s44",
+ "backbone": "UBC-NLP/MARBERT",
+ "seed_fraction": 10,
+ "epochs": 10,
+ "batch_size": 32,
+ "max_length": 128,
+ "dropout": 0.5,
+ "lr": 3e-05,
+ "seed": 44,
+ "gpu": 0,
+ "rho_weights": {
+  "MSA": 0.2495,
+  "BEI": 0.2495,
+  "CAI": 0.2495,
+  "DOH": 0.2495,
+  "RAB": 0.001,
+  "TUN": 0.001
+ },
+ "anchor_table": "splits/anchor_table_r4_tau05.pt",
+ "lambda_kl": 0.5,
+ "lambda_m": 0.1
+}

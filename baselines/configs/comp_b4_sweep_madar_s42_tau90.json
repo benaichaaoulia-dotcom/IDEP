@@ -1,0 +1,14 @@
+{
+ "run_name": "B4-selftrain-madar-s42-tau90",
+ "backbone": "UBC-NLP/MARBERT",
+ "dataset": "madar",
+ "seed_fraction": 10,
+ "tau": 0.9,
+ "phase1_steps": 1520,
+ "phase3_steps": 760,
+ "batch_size": 32,
+ "max_length": 128,
+ "dropout": 0.5,
+ "lr": 3e-05,
+ "seed": 42
+}

@@ -1,0 +1,15 @@
+{
+ "arm": "a2",
+ "run_name": "idemp_ab1_k8_s42",
+ "backbone": "UBC-NLP/MARBERT",
+ "seed_fraction": 10,
+ "epochs": 10,
+ "batch_size": 32,
+ "max_length": 128,
+ "dropout": 0.5,
+ "lr": 3e-05,
+ "seed": 42,
+ "gpu": 0,
+ "k_singleton": 6,
+ "k_pair": 2
+}

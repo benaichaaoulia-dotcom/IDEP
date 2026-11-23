@@ -1,0 +1,13 @@
+{
+ "target": "plain",
+ "run_name": "B2-marbert-plain-elhaj-s42",
+ "backbone": "UBC-NLP/MARBERT",
+ "dataset": "elhaj",
+ "seed_fraction": 10,
+ "epochs": 10,
+ "batch_size": 32,
+ "max_length": 128,
+ "dropout": 0.5,
+ "lr": 3e-05,
+ "seed": 42
+}

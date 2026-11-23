@@ -1,0 +1,23 @@
+{
+ "arm": "a2",
+ "run_name": "sweep_v12_kl0.25_m0.20_s42",
+ "backbone": "UBC-NLP/MARBERT",
+ "seed_fraction": 10,
+ "epochs": 10,
+ "batch_size": 32,
+ "max_length": 128,
+ "dropout": 0.5,
+ "lr": 3e-05,
+ "gpu": -1,
+ "seed": 42,
+ "rho_weights": {
+  "MSA": 0.2495,
+  "BEI": 0.2495,
+  "CAI": 0.2495,
+  "DOH": 0.2495,
+  "RAB": 0.001,
+  "TUN": 0.001
+ },
+ "lambda_kl": 0.25,
+ "lambda_m": 0.2
+}

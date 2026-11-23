@@ -1,0 +1,6 @@
+{
+ "run_name": "B5-tfidf-logreg-elhaj-s43",
+ "dataset": "elhaj",
+ "seed_fraction": 10,
+ "seed": 43
+}

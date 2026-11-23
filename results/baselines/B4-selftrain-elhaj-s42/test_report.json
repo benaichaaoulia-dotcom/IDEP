@@ -1,0 +1,83 @@
+{
+  "run_name": "B4-selftrain-elhaj-s42",
+  "dataset": "elhaj",
+  "split": "test",
+  "eval_id": "COMP-c16-b4-elhaj-s42",
+  "kind": "transformer",
+  "n_sentences": 1013,
+  "macro_f1": 0.66155,
+  "accuracy": 0.729516,
+  "per_class": {
+    "EGY": {
+      "support": 407,
+      "precision": 0.9534,
+      "recall": 0.9558,
+      "f1": 0.9546
+    },
+    "NOR": {
+      "support": 162,
+      "precision": 0.5085,
+      "recall": 0.7407,
+      "f1": 0.603
+    },
+    "GLF": {
+      "support": 168,
+      "precision": 0.5692,
+      "recall": 0.4405,
+      "f1": 0.4966
+    },
+    "LAV": {
+      "support": 176,
+      "precision": 0.6048,
+      "recall": 0.4261,
+      "f1": 0.5
+    },
+    "MSA": {
+      "support": 100,
+      "precision": 0.7043,
+      "recall": 0.81,
+      "f1": 0.7535
+    }
+  },
+  "confusion_matrix_rows_gold_cols_pred": {
+    "EGY": {
+      "EGY": 389,
+      "NOR": 11,
+      "GLF": 3,
+      "LAV": 4,
+      "MSA": 0
+    },
+    "NOR": {
+      "EGY": 8,
+      "NOR": 120,
+      "GLF": 13,
+      "LAV": 19,
+      "MSA": 2
+    },
+    "GLF": {
+      "EGY": 5,
+      "NOR": 51,
+      "GLF": 74,
+      "LAV": 23,
+      "MSA": 15
+    },
+    "LAV": {
+      "EGY": 5,
+      "NOR": 51,
+      "GLF": 28,
+      "LAV": 75,
+      "MSA": 17
+    },
+    "MSA": {
+      "EGY": 1,
+      "NOR": 3,
+      "GLF": 12,
+      "LAV": 3,
+      "MSA": 81
+    }
+  },
+  "ece15": 0.235165,
+  "throughput_sent_per_s": 1080.43,
+  "p50_batch32_latency_s": 0.025336,
+  "ckpt": "best"
+}

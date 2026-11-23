@@ -1,0 +1,7 @@
+{
+ "run_name": "B3-hierarchical-elhaj-s44",
+ "dataset": "elhaj",
+ "seed_fraction": 10,
+ "seed": 44,
+ "eval_id": "COMP-c16-b3-elhaj-s44"
+}

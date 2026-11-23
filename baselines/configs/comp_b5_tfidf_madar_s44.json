@@ -1,0 +1,6 @@
+{
+ "run_name": "B5-tfidf-logreg-madar-s44",
+ "dataset": "madar",
+ "seed_fraction": 10,
+ "seed": 44
+}

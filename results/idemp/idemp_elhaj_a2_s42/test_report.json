@@ -1,0 +1,47 @@
+{
+ "eval_id": "IDEP-c10-idemp_elhaj_a2_s42",
+ "arm": "a2",
+ "checkpoint": "best.pt",
+ "checkpoint_step": 182,
+ "checkpoint_val2_macro_f1": 0.6703610517624606,
+ "checkpoint_trailing3_score": 0.6619723525433502,
+ "macro_f1": 0.6238107510200613,
+ "accuracy": 0.7087857847976308,
+ "loss": 0.9803153750691692,
+ "per_class": {
+  "EGY": {
+   "support": 407,
+   "precision": 0.8989,
+   "recall": 0.9828,
+   "f1": 0.939
+  },
+  "NOR": {
+   "support": 162,
+   "precision": 0.7759,
+   "recall": 0.2778,
+   "f1": 0.4091
+  },
+  "GLF": {
+   "support": 168,
+   "precision": 0.4412,
+   "recall": 0.8036,
+   "f1": 0.5696
+  },
+  "LAV": {
+   "support": 176,
+   "precision": 0.6038,
+   "recall": 0.3636,
+   "f1": 0.4539
+  },
+  "MSA": {
+   "support": 100,
+   "precision": 0.7551,
+   "recall": 0.74,
+   "f1": 0.7475
+  }
+ },
+ "n_total": 1013,
+ "rab_to_tun": null,
+ "tun_to_rab": null,
+ "pair_mass_pct": null
+}
